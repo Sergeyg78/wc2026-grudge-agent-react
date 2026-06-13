@@ -157,7 +157,7 @@ export function Dashboard({
           <span className="dot green pulse" />
           <span>Saved to Walrus Mainnet</span>
           <span>·</span>
-          
+          <a
             href={getExplorerUrl(lastBlobId)}
             target="_blank"
             rel="noreferrer"
@@ -642,7 +642,7 @@ function HistoryTab({ appState, blobChain }) {
                   #{blobChain.length - i}
                 </span>
                 <code className="blob-code">{bid}</code>
-                
+                <a
                   href={getExplorerUrl(bid)}
                   target="_blank"
                   rel="noreferrer"
