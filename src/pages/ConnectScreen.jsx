@@ -45,7 +45,7 @@ export function ConnectScreen({ setAppState, setBlobChain }) {
   return (
     <div className="connect-screen">
 
-      {/* ── Hero ──────────────────────────────────────────────────────────[...]
+      {/* ── Hero ─────────────────────────────────────────────────────────── */}
       <div className="hero">
         <div className="hero-stripe" />
         <div className="hero-inner">
@@ -63,7 +63,7 @@ export function ConnectScreen({ setAppState, setBlobChain }) {
         </div>
       </div>
 
-      {/* ── Ticker ───────────────────────────────────────────────────────── [...]
+      {/* ── Ticker ───────────────────────────────────────────────────────── */}
       <div className="ticker-wrap">
         <div className="ticker-inner">
           ⚽ WC2026 kicks off June 11, 2026 &nbsp;·&nbsp;
@@ -190,7 +190,7 @@ export function ConnectScreen({ setAppState, setBlobChain }) {
         </div>
       )}
 
-      {/* ── Footer ─────────────────────────────────────────────────────────[...]
+      {/* ── Footer ───────────────────────────────────────────────────────── */}
       <div className="footer-note">
         ⚽ WC2026 Grudge Agent · Powered by Walrus Mainnet · Built on Sui ·
         <a
@@ -198,7 +198,7 @@ export function ConnectScreen({ setAppState, setBlobChain }) {
           target="_blank"
           rel="noreferrer"
           style={{ color: '#40c4ff', marginLeft: 6 }}
-        >
+         >
           WalrusScan ↗
         </a>
       </div>
